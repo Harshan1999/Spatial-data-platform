@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.backup
+*.log
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# SQLite (if any)
+*.sqlite3
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
